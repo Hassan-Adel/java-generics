@@ -1,6 +1,7 @@
 package com.tutorial.generics;
-
-public class GenericsList<T> {
+//Add constraint for T (Float, Int, Double)
+//T is bounded
+public class GenericsList<T extends Number & Comparable> {
     private T[] items = (T[]) new Object[10];
     private int count;
 
