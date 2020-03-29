@@ -20,5 +20,11 @@ public class Main {
             System.out.println("user1 == user2");
 
         var user = Utilities.max(user1,user2);
+
+        //Wild cards
+        var instructors = new GenericsList<Instructor>();
+        var users = new GenericsList<User>();
+        //error
+        //Utilities.printUsers(instructors);
     }
 }
