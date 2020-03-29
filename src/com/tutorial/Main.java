@@ -24,7 +24,7 @@ public class Main {
         //Wild cards
         var instructors = new GenericsList<Instructor>();
         var users = new GenericsList<User>();
-        //error
-        //Utilities.printUsers(instructors);
+
+        Utilities.printUsers(instructors);
     }
 }
