@@ -18,5 +18,7 @@ public class Main {
             System.out.println("user1 > user2");
         else
             System.out.println("user1 == user2");
+
+        var user = Utilities.max(user1,user2);
     }
 }
